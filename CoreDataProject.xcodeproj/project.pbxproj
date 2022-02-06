@@ -13,6 +13,9 @@
 		5ABBBC4527AAE15A00D7C2BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBBC4427AAE15A00D7C2BD /* Preview Assets.xcassets */; };
 		5ABBBC4C27AAE61F00D7C2BD /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBBC4B27AAE61F00D7C2BD /* DataController.swift */; };
 		5ABBBC4F27AAE65600D7C2BD /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBBC4D27AAE65600D7C2BD /* CoreDataProject.xcdatamodeld */; };
+		C706152127B029E5000EEDAC /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C706152027B029E5000EEDAC /* StudentView.swift */; };
+		C706152427B02DF1000EEDAC /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C706152227B02DF1000EEDAC /* Movie+CoreDataClass.swift */; };
+		C706152527B02DF1000EEDAC /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C706152327B02DF1000EEDAC /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		5ABBBC4427AAE15A00D7C2BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ABBBC4B27AAE61F00D7C2BD /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		5ABBBC4E27AAE65600D7C2BD /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		C706152027B029E5000EEDAC /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		C706152227B02DF1000EEDAC /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "CoreDataProject/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C706152327B02DF1000EEDAC /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "CoreDataProject/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,8 @@
 		5ABBBC3127AAE15200D7C2BD = {
 			isa = PBXGroup;
 			children = (
+				C706152227B02DF1000EEDAC /* Movie+CoreDataClass.swift */,
+				C706152327B02DF1000EEDAC /* Movie+CoreDataProperties.swift */,
 				5ABBBC3C27AAE15200D7C2BD /* CoreDataProject */,
 				5ABBBC3B27AAE15200D7C2BD /* Products */,
 			);
@@ -57,6 +65,7 @@
 			children = (
 				5ABBBC4B27AAE61F00D7C2BD /* DataController.swift */,
 				5ABBBC3D27AAE15200D7C2BD /* CoreDataProjectApp.swift */,
+				C706152027B029E5000EEDAC /* StudentView.swift */,
 				5ABBBC3F27AAE15200D7C2BD /* ContentView.swift */,
 				5ABBBC4127AAE15A00D7C2BD /* Assets.xcassets */,
 				5ABBBC4327AAE15A00D7C2BD /* Preview Content */,
@@ -146,6 +155,9 @@
 				5ABBBC4027AAE15200D7C2BD /* ContentView.swift in Sources */,
 				5ABBBC4C27AAE61F00D7C2BD /* DataController.swift in Sources */,
 				5ABBBC4F27AAE65600D7C2BD /* CoreDataProject.xcdatamodeld in Sources */,
+				C706152127B029E5000EEDAC /* StudentView.swift in Sources */,
+				C706152427B02DF1000EEDAC /* Movie+CoreDataClass.swift in Sources */,
+				C706152527B02DF1000EEDAC /* Movie+CoreDataProperties.swift in Sources */,
 				5ABBBC3E27AAE15200D7C2BD /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
