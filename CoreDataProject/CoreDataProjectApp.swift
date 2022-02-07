@@ -14,7 +14,7 @@ struct CoreDataProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShipView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
