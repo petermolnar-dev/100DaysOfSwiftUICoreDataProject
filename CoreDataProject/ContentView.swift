@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) var moc
-    
+    @Environment(\.managedObjectContext) var moc    
     @FetchRequest(sortDescriptors: []) var wizards: FetchedResults<Wizard>
     
     var body: some View {
