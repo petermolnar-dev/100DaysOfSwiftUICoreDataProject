@@ -14,7 +14,7 @@ struct CoreDataProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SingerView()
+            CandyCountryView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
