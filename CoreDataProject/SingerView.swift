@@ -14,7 +14,7 @@ struct SingerView: View {
     var body: some View {
         VStack {
             FilteredCoreDataList(filterKey: "lastName",
-                                 filterValue: lastNameFilter) { (singer: Singer) in
+                                 filterValue: lastNameFilter, sortDescriptors: [SortDescriptor<Singer>(\.lastName, order: .reverse)]) { (singer: Singer) in
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
             Button("Add examples") {
